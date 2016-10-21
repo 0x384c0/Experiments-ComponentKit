@@ -1,0 +1,12 @@
+PODS:
+  - ComponentKit (0.15.1)
+
+DEPENDENCIES:
+  - ComponentKit
+
+SPEC CHECKSUMS:
+  ComponentKit: beef88630f344efb8344fe40fc6fc7c1732b68c8
+
+PODFILE CHECKSUM: 39c89d727fa62cc7c84be189fb294a741e391ebc
+
+COCOAPODS: 1.1.0.rc.2
