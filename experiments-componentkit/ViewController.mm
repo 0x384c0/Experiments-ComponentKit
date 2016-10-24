@@ -22,12 +22,11 @@
                                            initWithComponentProvider:[self class]
                                            sizeRangeProvider:[CKComponentFlexibleSizeRangeProvider providerWithFlexibility:CKComponentSizeRangeFlexibleHeight]];
     [self.view addSubview:_hostingView];
-    [_hostingView updateModel:@"asda" mode:CKUpdateModeSynchronous];
+    [_hostingView updateModel:@"Text Label" mode:CKUpdateModeSynchronous];
 }
 
 
-- (void)viewDidLayoutSubviews
-{
+- (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     
     const CGSize labelSize = [_hostingView sizeThatFits:{

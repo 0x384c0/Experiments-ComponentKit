@@ -32,7 +32,16 @@
                     }
                     size:{ }],
                       .alignSelf = CKStackLayoutAlignSelfCenter
-                  }
+                  },
+//                  {[CKNetworkImageComponent
+//                    newWithURL:[NSURL URLWithString:@""]
+//                    imageDownloader:<#(id<CKNetworkImageDownloading>)#> 
+//                    scenePath:nil
+//                    size:<#(const CKComponentSize &)#>
+//                    options:<#(const CKNetworkImageComponentOptions &)#>
+//                    attributes:<#(const CKViewComponentAttributeValueMap &)#>],
+//                      .alignSelf = CKStackLayoutAlignSelfCenter
+//                  }
               }]]];
 }
 
